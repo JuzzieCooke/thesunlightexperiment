@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+            body {
+          position: relative;
+        }
+        
+        #firstrow {
+            margin-top: 40px;
+        }
+        
+
+.btn-danger.raised {
+	box-shadow: 0 3px 0 0 #992C1F;
+}
+        
+.btn-danger.raised:active, .btn-primary.raised.active {
+	background: #33a6cc;
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+        
+        .card-block {
+            height: 680px;
+/*            !!!!!!!!!!!!!!!!!!*/
+            position: relative;
+        }
+        
+        .card-text {
+            font-size: 100%;
+            font-family: "cormorant garamond";
+            text-align: center;
+}
+        
+        .card-title {
+            font-family: 'cormorant garamond', serif;
+            font-size: 250%;
+            font-weight: 500;
+            text-align: center;
+        }
+        
+        .btn {
+            position: absolute;
+            top: 610px;
+            left: 10%;
+            width: 75% !important;
+            text-align: center;
+            
+        }
+        
+        .btn-lg {
+            
+            width: 75%;
+        }
+        
+        .nav-item {
+           color: #F7F7F9;
+        }
+        
+          h1 {
+        font-family: "ltc bodoni 175" !important; 
+              font-weight: 100;
+      }
+        
+        .secondary-text {
+            font-weight: 100;
+            text-align: center;
+        }
+        
+        .search-alphabetically {
+            padding-left: 50px;
+            clear: both;
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            color: grey;
+            }
+        
+       .div-inline{
+/*           padding-left: 170px;*/
+/*           clear: both ;*/
+/*    display: inline-block !important;*/
+/*
+    overflow: hidden;
+    white-space: nowrap;
+*/
+}
+        
+        .navbar {
+            border-style: solid;
+            border-color: lightgray;
+            border-width: thin;
+        }
+        
+        
+
+        
+       
+    </style>
+    
+    
+    
+  <head>
+      <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+      
+      <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+
+      
+      
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+      
+      
+<!--      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+      
+      
+      
+      
+  </head>
+    
+    
+    
+    
+  <body data-spy="scroll" data-target="#navbar-example">
+
+      
+      
+      
+      
+      <nav class="navbar  navbar-light navbar-fixed-bottom " style="background-color: white;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><p class="search-alphabetically">Search Alphabetically<p>
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse div-inline" id="navbarTogglerDemo01">
+<!--      <a class="navbar-brand" href="#">Hidden brand</a>-->
+    <ul class="navbar-nav mr-xs mt-2 mt-xs-0 div-inline" id="navbar-example">
+        
+        <li class="nav-item">
+    <a class="nav-link active" href="#A">A</a>
+  </li>
+        
+  <li class="nav-item">
+    <a class="nav-link" href="#B">B</a>
+  </li>
+        
+  <li class="nav-item">
+    <a class="nav-link" href="#C">C</a>
+  </li>
+        
+        <li class="nav-item">
+    <a class="nav-link" href="#D">D</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#E">E</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#F">F</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#G">G</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#H">H</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#I">I</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#J">J</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#K">K</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#L">L</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#M">M</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#N">N</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#O">O</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#P">P</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#Q">Q</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#R">R</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#S">S</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#T">T</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#U">U</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#V">V</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#W">W</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#X">X</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#Y">Y</a>
+  </li>
+        
+      <li class="nav-item">
+    <a class="nav-link" href="#Z">Z</a>
+  </li>
+        
+    </ul>
+<!--
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+-->
+  </div>
+</nav>
+    
+
+    
+      
+      
+<div class="row" id="A">
+        <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>A</h1>
+
+
+      <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Yarrow-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Achillea millefolium</h3>
+                    <h3 class="secondary-text">(Yarrow)</h3>
+                  <p class="card-text">This useful plant is commonly applied to wounds to stop blood leakage, and is a strong bitter useful for liver, glallbladder, and digestive conditions...</p>
+                  <a href="/yarrow" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div> 
+    
+     <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Buchu-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Agathosma betulina</h3>
+                    <h3 class="secondary-text">(Buchu)</h3>
+                  <p class="card-text">Buchu is an African medicinal plant species used mainly for urinary tract infections. It's aqueretic, which means it has the ability to improve blood flow to the...</p>
+                  <a href="/buchu" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div> 
+    
+    <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Albizzia-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Albizzia lebbeck</h3>
+                    <h3 class="secondary-text">(Albizzia)</h3>
+                  <p class="card-text">Albizzia is one of the best herbs for seasonal allergies and respiratory tract infections. It affects histamine to prevent or reduce the symptoms of allergies like...</p>
+                  <a href="/albizzia" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+       <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Aloe-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Aloe spp. <span style="font-size: 60%;">(vera/barbadensis)</span></h3>
+                    <h3 class="secondary-text">(Aloe)</h3>
+                  <p class="card-text">Aloe is most commonly known for its ability to treat burns and wounds. What is less known, however, is that aloe is also useful for treating inflammation of the...</p>
+                  <a href="/aloe" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+                </div>
+    
+     <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Marshmallow-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Althaea officinalis</h3>
+                    <h3 class="secondary-text">(Marshmallow)</h3>
+                  <p class="card-text">Marshmallow root has a high concentration of soothing mucilage. It can be concentrated and used as a vegan alternative for egg whites. Medicinally the mucilage is used to... </p>
+                  <a href="/marshmallow" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+                </div>
+    
+    <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Cashew-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Anacardium occidentale</h3>
+                    <h3 class="secondary-text">(Cashew)</h3>
+                  <p class="card-text">Cashew nuts are a great source of protein and trace minerals. The plant behind the cashew is even more useful as a medicine however. The leaves and bark can be used for... </p>
+                  <a href="/cashew" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Angelica-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Angelica archangelica</h3>
+                    <h3 class="secondary-text">(Angelica)</h3>
+                  <p class="card-text">This herb got its name from stories suggesting it was passed down to earth by an angel as a cure for the plague. Now it's mainly used as an antispasmodic, bitter tonic, and... </p>
+                  <a href="/angelica" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+<!--
+    <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Dong-quai-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Angelica sinensis</h3>
+                    <h3 class="secondary-text">(Dong quai)</h3>
+                  <p class="card-text">With natural lead in to .....</p>
+                  <a href="/dong-quai" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+     <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Rosewood-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Aniba roseodora</h3>
+                    <h3 class="secondary-text">(Rosewood)</h3>
+                  <p class="card-text">Rosewood essential oil is highly valued for its aroma, and use for correcting skin conditions. Unfortunatly this herb is associated with a large degree of environmental...</p>
+                  <a href="/rosewood" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+       <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Bearberry-icon.png" alt="Card image cap">
+                  <h3 class="card-title" style="font-size: 2em;">Arctostaphylos uva-ursi</h3>
+                    <h3 class="secondary-text">(Bearberry)</h3>
+                  <p class="card-text">Bearberry is used for a wide range of urinary tract conditions, and is one of the best for urinary tract infections. Its potent antibacterial actions make it useful for... </p>
+                  <a href="/bearberry" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Arnica-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Arnica montana</h3>
+                    <h3 class="secondary-text">(Arnica)</h3>
+                  <p class="card-text">Arnica is a mountain grown flower with potent wound healing abilities. It can be used topically to prevent bruising, and speed wound healing.</p>
+                  <a href="/arnica" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Wormwood-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Artemisia absinthium</h3>
+                    <h3 class="secondary-text">(Wormwood)</h3>
+                  <p class="card-text">Wormwood is commonly used to treat parasites, induce sweating to lower fevers, and is a central ingredient in making absinthe. The main constituent is thujone, which is... </p>
+                  <a href="/wormwood" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+<!--
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Shatvari-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Asparagus racemosus</h3>
+                    <h3 class="secondary-text">(Shatvari)</h3>
+                  <p class="card-text">With natural lead in..</p>
+                  <a href="/shatvari" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+</div>
+               
+<div class="row" id="B">
+    <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>B</h1>
+
+              <div class="col-sm-4" id="B">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Bacopa-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Bacopa monieri</h3>
+                    <h3 class="secondary-text">(Bacopa/Brahmi)</h3>
+                  <p class="card-text">Bacopa is a popular herb for improving cognitive function. It improves the formation and retrieval of memories, as well as concentration and focus... </p>
+                  <a href="/bacopa" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+     <div class="col-sm-4" id="B">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Berberis-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Berberis spp.</h3>
+                    <h3 class="secondary-text">(Barberry/Mahonia)</h3>
+                  <p class="card-text">Berberis is the genus name for a group of species that contain the alkaloid known as berberine. This alkaloid is a potent antibacterial, which is especially useful for... </p>
+                  <a href="/barberry" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+<!--
+       <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Erva-tostao-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Boerhaavia diffusa</h3>
+                    <h3 class="secondary-text">(Erva Tostão)</h3>
+                  <p class="card-text">With natural lead in to additional content....</p>
+                  <a href="/erva-tostao" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+     <div class="col-sm-4" id="B">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Bupleurum-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Bupleurum falciform</h3>
+                    <h3 class="secondary-text">(Bupleurum)</h3>
+                  <p class="card-text">Bupleurum is a popular herb in Chinese herbal medicine, and is found in a large number of herbal formulations. Modern resesarch has spent a lot of time investigating its... </p>
+                  <a href="/bupleurum" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+                     
+
+</div>
+      
+<div class="row" id="C">
+        <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>B</h1>
+
+    
+        <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Calendula-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Calendula officinalis</h3>
+                    <h3 class="secondary-text">(Calendula)</h3>
+                  <p class="card-text">Calendula is specific for the skin, possessing strong vulnerary and antinflammatory properties. It's also very useful internally for female menstrual disorders...</p>
+                <a href="/calendula" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+                <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Tea-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Camellia sinensis</h3>
+                    <h3 class="secondary-text"><span style="font-size: 60%;">(Green/Black/Puerh Tea)</span></h3>
+                  <p class="card-text">Camellia sinensis is the plant that brings us tea in all its many colors and flavors. It has a fairly high level of caffeine, and plenty of antioxidants. It makes a great tea for... </p>
+                <a href="/tea" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+<!--
+            <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/ylang-ylang-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Cananga odorata</h3>
+                    <h3 class="secondary-text">(Ylang-ylang)</h3>
+                  <p class="card-text">With a natural lead in to additional content... </p>
+                  <a href="/ylang-ylang" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+<!--
+            <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/Cannabis-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Cannabis sativa/indica</h3>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="/cannabis" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+-->
+    
+            <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/Senna-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Cassia angustifolia</h3>
+                        <h3 class="secondary-text">(Senna)</h3>
+                      <p class="card-text">Cassia is also referred to comonly as senna. It's a medium sized tree with brown seed pods. These seed pods are used as medicine. The main action of this herb is laxitive... </p>
+                    <a href="/senna" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+    
+            <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/Gotu-kola-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Centella asiatica</h3>
+                        <h3 class="secondary-text">(Gotu kola)</h3>
+                      <p class="card-text">Gotu kola has been used for thousands of years, mainly in the Ayurvedic medical system of India. It improves mitochondrial function, and is a popular addition to nootropic... </p>
+                    <a href="/gotu-kola" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+    
+            <div class="col-sm-4">
+                        <div class="card card-block">
+                      <img class="card-img-right" src="/s/Chelidonium-icon.png" alt="Card image cap">
+                          <h3 class="card-title">Chelidonium majus</h3>
+                            <h3 class="secondary-text">(Greater Celandine)</h3>
+                          <p class="card-text">Also known as greater celandine. This herb is contained in the same family as the opium poppy. Although it doesn't contain the alkaloids that give us morphine...  </p>
+                        <a href="/chelidonium" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                        </div>
+                      </div>
+    
+<!--
+            <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Epazote-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Chenopodium abrosioides</h3>
+                    <h3 class="secondary-text">(Epazote)</h3>
+                  <p class="card-text">With a natural lead in...</p>
+                  <a href="/epazote" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+
+            <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/black-cohosh-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Cimicifuga racemosa</h3>
+                    <h3 class="secondary-text">(Black Cohosh)</h3>
+                  <p class="card-text">With natural lead in to additional content....</p>
+                  <a href="/black-cohosh" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+            <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Abuta-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Cissampelos pariera</h3>
+                    <h3 class="secondary-text">(Abuta)</h3>
+                  <p class="card-text">Abuto is the South American species of the Cissempelos pariera species. It's used in both Amazonian medicinal systems and in India where it grows abundantly... </p>
+                  <a href="/abuta" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+            <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/codonopsis-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Codonopsis pilosa</h3>
+                        <h3 class="secondary-text">(Codonopsis)</h3>
+                      <p class="card-text">Codonopsis, also known as "poor mans ginseng" is a popular herb in traditional Chinese medicine. It's used to treat cardiovascular disease, high cholesterol, fatigue, and...</p>
+                    <a href="/codonopsis" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+    
+            <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/Coffee-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Coffea arabica</h3>
+                        <h3 class="secondary-text">(Coffee)</h3>
+                      <p class="card-text">Coffee is one of the most widely consumed beverages in the entire world. Contrary to popular belief, its beautiful stimulating nature, and potent antioxidant profile make it a great health beverage... </p>
+                    <a href="/coffee" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+    
+            <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/Coleus-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Coleus fosrskohlii</h3>
+                        <h3 class="secondary-text">(Coleus)</h3>
+                      <p class="card-text">Coleus doesn't have a wide history of use, but has become incredibly popular as a heart medication and nootropic in recent years...</p>
+                    <a href="/coleus" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+    
+<!--
+            <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Cha-de-bugre-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Cordia salicifolia</h3>
+                    <h3 class="secondary-text">(Cha De Bugre)</h3>
+                  <p class="card-text">With a natural lead in to additional content... </p>
+                  <a href="/cha-de-bugre" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+
+        <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Cordyceps-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Cordyceps sinensis</h3>
+                    <h3 class="secondary-text">(Cordyceps)</h3>
+                  <p class="card-text">With natural lead in to additional content....</p>
+                  <a href="/cordyceps" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+     <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/Hawthorn-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Crataegus oxycanthus</h3>
+                        <h3 class="secondary-text">(Hawthorn)</h3>
+                      <p class="card-text">Hawthorn berries and leaves are considered one of the best cardiotonic herbs on earth. They are used as a preventative for heart diseases of all different kinds...</p>
+                    <a href="/hawthorn" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+    
+      <div class="col-sm-4" id="C">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Turmeric-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Curcuma longa</h3>
+                    <h3 class="secondary-text">(Turmeric)</h3>
+                  <p class="card-text">Turmeric is one of the oldest herbal medicines in the world. The benefits of turmeric are many, and its broad yet powerful actions have landed it among the most highly... </p>
+                  <a href="/turmeric" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    <div class="col-sm-4" id="C">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Artichoke-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Cynara scolymus</h3>
+                    <h3 class="secondary-text">(Globe Artichoke)</h3>
+                  <p class="card-text">Artichoke is a popular food crop, and potent anticholesterol medication. Its bitter components improve digestion, reduce cholesterol and triglyceride levels, as well as... </p>
+                  <a href="/artichoke" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+</div>
+<div class="row" id="D">
+        <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>D</h1>
+
+    
+    
+    
+    
+</div>
+<div class="row" id="E">
+        <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>E</h1>
+
+              
+       <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Eleuthero-icon.png" alt="Card image cap">
+                  <h3 class="card-title"><span style="font-size: 80%;">Eleutherococcus senticosus</span></h3>
+                    <h3 class="secondary-text">(Siberian Ginseng)</h3>
+                  <p class="card-text">Also known as Siberian ginseng, this herb is specific for reducing the negative effects of stress, and improving athletic performance. It was popularized in the 1970's by...</p>
+                  <a href="/eleuthero-root" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>                
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Couchgrass-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Eltrygia repens</h3>
+                    <h3 class="secondary-text">(Couchgrass)</h3>
+                  <p class="card-text">Couchgrass is mainly used for urinary tract infections and gout. Many consider this useful herb an annoying garden pest and don't recognize the potential for medical value... </p>
+                  <a href="/couchgrass" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+      <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Ephedra-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Ephedra sinica</h3>
+                    <h3 class="secondary-text">(Ephedra)</h3>
+                  <p class="card-text">Ephedra, otherwise known as Ma-Huang, is most commonly used in traditional Chinese medicine. Its main action due to an alkaloid that mimics the effects of epinephrine in our body...</p>
+                  <a href="/ephedra" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Horsetail-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Equisetum arvense</h3>
+                    <h3 class="secondary-text">(Horsetail)</h3>
+                  <p class="card-text">Horsetail is a common weed to wetter areas. It's an ancient species of plant, spreading itself via spores in a similar manner to fungi or ferns. It's high in silica which... </p>
+                  <a href="/horsetail" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+    
+    
+</div>
+<div class="row" id="F">
+        <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>F</h1>
+
+              
+                    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Fennel-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Foeniculum vulgare</h3>
+                    <h3 class="secondary-text">(Fennel)</h3>
+                  <p class="card-text">Fennel has over 100 common names due to its worldwide popularity. It is used medicinally for a range of actions that seem to focus on the digestive tract. The seeds are...</p>
+                  <a href="/fennel" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+<!--
+       <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Erva-tostao-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Fomes fomentarius</h3>
+                    <h3 class="secondary-text">(Tinder conk)</h3>
+                  <p class="card-text">With natural lead in to additional content....</p>
+                  <a href="/tinder-conk" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+    
+    
+    
+</div>
+<div class="row" id="G">
+        <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>G</h1>
+
+<!--
+       <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Reishi-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Ganoderma lucidum</h3>
+                    <h3 class="secondary-text">(Reishi)</h3>
+                  <p class="card-text">With natural lead in to additional content....</p>
+                  <a href="/reishi" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+    
+    
+</div>
+<div class="row" id="H">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>H</h1>
+
+    
+<!--
+            <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Lions-mane-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Hericium erinaceous</h3>
+                    <h3 class="secondary-text">(Lions Mane)</h3>
+                  <p class="card-text">With natural lead in to additional content....</p>
+                  <a href="/lions-mane" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+              
+                    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Hops-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Humulus lupulus</h3>
+                    <h3 class="secondary-text">(Hops)</h3>
+                  <p class="card-text">Hops are one of the main ingredients of beer. They provide a pleasant, bitter flavor to the brew. Medicinally hops are highly sedating and estrogenic...</p>
+                  <a href="/hops" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+    
+</div>
+<div class="row" id="I">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>H</h1>
+
+              
+                    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Yerba-mate-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Ilex paraguraiensis</h3>
+                    <h3 class="secondary-text">(Yerba Maté)</h3>
+                  <p class="card-text">Yerba maté is a large Amazonian tree. Its leathery leaves are dried and consumed as a tea similarily to green and black tea. It's a potent source of caffeine and antioxidants...</p>
+                  <a href="/yerba-mate" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+    
+    
+</div>
+<div class="row" id="J">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>J</h1>
+
+              
+        <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Walnut-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Juglans nigra</h3>
+                    <h3 class="secondary-text">(Walnut)</h3>
+                  <p class="card-text">Walnut is a very versatile tree. The bark is used as a potent astringent, and the green, unripe husks make for a great antiparasitic agent. The husks can be extracted and made into...</p>
+                  <a href="/walnut" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>                
+    
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Juniper-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Juniperus communis</h3>
+                    <h3 class="secondary-text">(Juniper)</h3>
+                  <p class="card-text">Juniper berries are potent antiseptics when applied both topically and internally. They are often used to prevent the spread of infection and to treat urinary tract... </p>
+                  <a href="/juniper" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+    
+    
+</div>
+<div class="row" id="K">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>K</h1>
+
+            
+    
+    
+    
+</div>
+<div class="row" id="L">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>L</h1>
+
+              
+                    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Maca-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Lepidium meyenii</h3>
+                    <h3 class="secondary-text">(Maca)</h3>
+                  <p class="card-text">Maca is a famous South American root vegetable with adaptogenic properties. It works to balance hormones directly through the hypothalamus, and provides a rich source of...</p>
+                  <a href="/maca" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+    
+    
+</div>
+<div class="row" id="M">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>M</h1>
+
+                    
+        <div class="col-sm-4">
+                        <div class="card card-block">
+                      <img class="card-img-right" src="/s/German-chamomile-icon.png">
+                          <h3 class="card-title">Matricaria chamomila</h3>
+                            <h3 class="secondary-text">(German Chamomile)</h3>
+                          <p class="card-text">German Chamomile is a sedative, carminative, and antibacterial suitable for adults and children alike. It makes a delicious night time tea, and the essential oil is used for...</p>
+                          <a href="/chamomile" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                        </div>
+                      </div>    
+    
+    <div class="col-sm-4">
+                        <div class="card card-block">
+                      <img class="card-img-right" src="/s/Peppermint-icon.png">
+                          <h3 class="card-title">Mentha piperita</h3>
+                            <h3 class="secondary-text">(Peppermint)</h3>
+                          <p class="card-text">Peppermints volatile oil contains a rich source of the characteristic menthol. this chemical is often used as a flavouring agent. It is also a great carminative, and...</p>
+                          <a href="/peppermint" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                        </div>
+                      </div>
+    
+    <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/Camu-camu-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Myriciaria dubia</h3>
+                        <h3 class="secondary-text">(Camu-camu)</h3>
+                      <p class="card-text">Camu-camu has the highest concentration of vitamin C out of any fruit in the world. It has up to 100 times the vitamin C content of oranges, 10 times the iron, 3 times the...</p>
+                      <a href="/camu-camu" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+    
+
+    
+</div>
+<div class="row" id="N">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>N</h1>
+
+    
+    
+    
+    
+</div>
+<div class="row" id="O">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>O</h1>
+
+              
+                    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Olive-leaf-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Olea europea</h3>
+                    <h3 class="secondary-text">(Olive leaf)</h3>
+                  <p class="card-text">Olive leaf is commonly used as an antibacterial and antiviral supplement. Its even better application is on heart health. Promoting lower blood pressure, lower cholesterol...</p>
+                  <a href="/olive-leaf" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+    
+    
+</div>
+<div class="row" id="P">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>P</h1>
+
+            
+      <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Asian-ginseng-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Panax ginseng</h3>
+                    <h3 class="secondary-text">(Asian Ginseng)</h3>
+                  <p class="card-text">Ginseng is a bit of a king amongst the herb world. It has a very long history of use, especially around China and Korea where it originated. It's used to promote longevity...</p>
+                  <a href="/asian-ginseng" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+<!--
+       <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Notoginseng-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Panax notoginseng</h3>
+                    <h3 class="secondary-text">(Notoginseng)</h3>
+                  <p class="card-text">With natural lead in to additional content....</p>
+                  <a href="/notoginseng" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Passionflower-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Passiflora spp.</h3>
+                    <h3 class="secondary-text">(Passionflower)</h3>
+                  <p class="card-text">Passionflower has many uses, and comes in many different varieties. Originating from South America, it can be found growing all over the world. Its main use is to lower stress and... </p>
+                  <a href="/passionflower" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Guarana-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Paulinia cupana</h3>
+                    <h3 class="secondary-text">(Guarana)</h3>
+                  <p class="card-text">Guarana seeds contain double the caffeine as coffee. This Amazonian medicinal plant is a great addition to supplements and smoothies for its stimulating, antioxidant effects...</p>
+                  <a href="/guarana" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+<!--
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Peony-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Peonia lateriflora</h3>
+                    <h3 class="secondary-text">(Peony)</h3>
+                  <p class="card-text">....</p>
+                  <a href="/peony" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Suma-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Pfaffia paniculata</h3>
+                    <h3 class="secondary-text">(Suma)</h3>
+                  <p class="card-text">Suma, otherwise known as pfaffia, or Brazilian ginseng, is one of the most well rounded herbs in the entire Amazon rainforest. It's an adaptogen, and improves...</p>
+                  <a href="/suma" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+<!--
+    <div class="col-sm-4" id="A">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Pine-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Pinus spp.</h3>
+                    <h3 class="secondary-text">(Pine)</h3>
+                  <p class="card-text">With a natural lead in to additional content... </p>
+                  <a href="/pine" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+       <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Kava-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Piper methysticum</h3>
+                    <h3 class="secondary-text">(Kava kava)</h3>
+                  <p class="card-text">Kava kava is a calming herb that can also improve focus and concentration. This makes it perfect for work related stress, public speaking, and social axiety at work or school... </p>
+                  <a href="/kava" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Samambaia-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Polypodium leucotomos</h3>
+                    <h3 class="secondary-text">(Samambaia)</h3>
+                  <p class="card-text">Samambaia is a fern found growing in the Amazon rainforest. It's one of the best herbs around for treating skin and brain disorders. Especially psoriasis, vitiligo, and...</p>
+                  <a href="/samambaia" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+            <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Black-ant-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Polyrhachis spp.</h3>
+                    <h3 class="secondary-text">(Black Ant)</h3>
+                  <p class="card-text">Black ants contain a high dose of zinc and other minerals, vitamins, and protein. They are a great source of nutrition, especially for athletes...</p>
+                  <a href="/black-ant" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Muira-puama-icon.png" alt="Card image cap">
+                  <h3 class="card-title"><span style="font-size: 75%;">Ptychopetalum olacoides</span></h3>
+                    <h3 class="secondary-text">(Muira puama)</h3>
+                  <p class="card-text">Muira puama is highly beneficial for age related disorders of all kinds. it slows the progression of Alzheimers, improves memory, cognitive, and sexual function..</p>
+                  <a href="/muira-puama" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+</div>
+<div class="row" id="Q">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>Q</h1>
+
+    
+    
+    
+    
+</div>
+<div class="row" id="R">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>R</h1>
+
+              
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Rehmannia-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Rhemmania glutinosa</h3>
+                    <h3 class="secondary-text">(Rehmannia)</h3>
+                  <p class="card-text">Rehmannia is an important traditional Chinese medicinal herb for treating "heat" conditions. In western herbal medicine the conditions this herb is used for strike a similar resemblance...</p>
+                  <a href="/rehmannia" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Rhubarb-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Rheum palmatum</h3>
+                    <h3 class="secondary-text">(Rhubarb)</h3>
+                  <p class="card-text">Rhubarb is a large leaved perennial common in northern climates. The stalks are used as a flavouring for their tart flavour, and the rhizome is used as medicine...</p>
+                  <a href="/rhubarb" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+                    
+    
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Cascara-sagrada-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Rhamnus purshiana</h3>
+                    <h3 class="secondary-text">(Cascara Sagrada)</h3>
+                  <p class="card-text">Cascara sagrada bark is used as a laxative and lower digestive tonic. The raw bark is much to strong to be used safely, so it is aged for threee years before use... </p>
+                  <a href="/cascara-sagrada" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+    
+</div>
+<div class="row" id="S">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>S</h1>
+
+<!--
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Muira-puama-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Salvia miltorrhiza</h3>
+                    <h3 class="secondary-text">(Dan Shen)</h3>
+                  <p class="card-text">With a natural lead in...</p>
+                  <a href="/dan-shen" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+           
+      <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Chinese-skullcap-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Scutellaria baicalensis</h3>
+                    <h3 class="secondary-text">(Chinese Skullcap)</h3>
+                  <p class="card-text">Skullcap is one of the best nervines on earth. The Chinese variety still has these nervine qualities, but is the best species for its anti-allergic, and antinflammatory...</p>
+                  <a href="/skullcap" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/American-skullcap-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Scutellaria lateriflora</h3>
+                    <h3 class="secondary-text">(American Skullcap)</h3>
+                  <p class="card-text">American skullcap is considered to be the better nervine out of the skullcaps, which in turn are already considered to be one of the best in the world...</p>
+                  <a href="/skullcap-american" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+       <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Schisandra-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Scisandra chinensis</h3>
+                    <h3 class="secondary-text">(Schisandra)</h3>
+                  <p class="card-text">Schisandra is known commonly as the "5 flavor berry". In Chinese medicine, it's used to tone all 5 flavors. In western herbal medicine, it's used just as vaguely, to tone the...</p>
+                  <a href="/schisandra" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Saw-palmetto-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Serenoa repens</h3>
+                    <h3 class="secondary-text">(Saw Palmetto)</h3>
+                  <p class="card-text">Saw palmetto is a member of the palm tree family. The seeds of this plant are used to treat a variety of male aging problems like BPH, male pattern baldness, respiratory...</p>
+                  <a href="/saw-palmetto" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>                
+    
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Sarsaparilla-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Smilax spp.<span style="font-size: 60%;"> (chinensis/officinalis)</span></h3>
+                    <h3 class="secondary-text">(Sarsaparilla)</h3>
+                  <p class="card-text">Sarsaparilla is a root found growing all over the world. It has a long history of use in both China and the South American Amazon rainforest for much the same uses... </p>
+                  <a href="/sarsaparilla" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+        <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Milk-thistle-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Silybum marianum</h3>
+                    <h3 class="secondary-text">(Milk Thistle)</h3>
+                  <p class="card-text">Milk thistle is renowned for its ability to improve the flow of milk in lactating females, and treat liver conditions of all kinds. It works by increasing the... </p>
+                  <a href="/milk-thistle" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+        <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Stevia-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Stevia rebaudiana</h3>
+                    <h3 class="secondary-text">(Stevia)</h3>
+                  <p class="card-text">Stevia is used as a sugar alternative and antidiabetic. The source of stevias sweetness comes from special phytochemicals known as glycosides. They are up to 160 times sweeter...</p>
+                  <a href="/stevia" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+    
+</div>
+<div class="row" id="T">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>T</h1>
+
+              
+    
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Pau-d-arco-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Tabebuia avellanedae</h3>
+                    <h3 class="secondary-text">(Pau D'Arco)</h3>
+                  <p class="card-text">Pau D'arco is a large canopy tree of the Amazon rainforest. The bark and heartwood are mainly used as medicine over the rest of the plant. Out of its many benefits...</p>
+                  <a href="/pau-darco" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+      <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Feverfew-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Tanecetum vulgare</h3>
+                    <h3 class="secondary-text">(Feverfew)</h3>
+                  <p class="card-text">Feverfew is the best known herb for treating migraine headaches. Despite its name, however, it isn't very good for...</p>
+                  <a href="/feverfew" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+                    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Cacao-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Theobroma cacao</h3>
+                    <h3 class="secondary-text">(Cacao)</h3>
+                  <p class="card-text">Cacao is the tree that gives us chocolate. The seed pods are high in the alkaloid theobromine, which is colsely related to caffeine, but varies slightly. Cacao is also...</p>
+                  <a href="/cacao" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+      <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/Tribulus-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Tribulus terrestris</h3>
+                        <h3 class="secondary-text">(Tribulus)</h3>
+                      <p class="card-text">Tribulus is a small hardy shrub. Its main use is as an aphrodisiac and cardiotonic. Its mechanism of action involves gently stimulating and toning the...</p>
+                      <a href="/tribulus" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+    
+            <div class="col-sm-4">
+                    <div class="card card-block">
+                  <img class="card-img-right" src="/s/Catuaba-icon.png" alt="Card image cap">
+                      <h3 class="card-title">Trichilia catigua</h3>
+                        <h3 class="secondary-text">(Catuaba)</h3>
+                      <p class="card-text">There are many plants in the Amazon rainforest that go by the common name catuaba. The Sunlight Experiment prefers the Trichilia catigua species for most conditions...</p>
+                      <a href="/catuaba" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                    </div>
+                  </div>
+    
+<!--
+            <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Red-clover-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Trifolium pratense</h3>
+                    <h3 class="secondary-text">(Red Clover)</h3>
+                  <p class="card-text">With natural lead in to additional content....</p>
+                  <a href="/red-clover" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+       <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Damiana-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Turnera diffusa</h3>
+                    <h3 class="secondary-text">(Damiana)</h3>
+                  <p class="card-text">Damiana is best known as an aphrodisiac. Additionally, it can be used as an effective antianxiety, and mild sedative. Topically is posesses antimicrobial and...</p>
+                  <a href="/damiana" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+        <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Clavo-huasca-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Tynanthus panurensis</h3>
+                    <h3 class="secondary-text">(Clavo Huasca)</h3>
+                  <p class="card-text">Clavo Huasca is a large woody vine found in the Amazon rainforest. it is mainly used as an aphrodisiac and as a replacement for clove in the region. Its resemblence to clove...</p>
+                  <a href="/clavo-huasca" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+</div>
+<div class="row" id="U">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>U</h1>
+
+              
+      <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Slippery-elm-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Ulmus rubra/fulva</h3>
+                    <h3 class="secondary-text">(Slippery Elm)</h3>
+                  <p class="card-text">Slippery elm bark is high in nutritious mucilage. It's great for treating all kinds of inflammation both inside and out. Internally, it can be used for conditions like...</p>
+                  <a href="/slippery-elm" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>               
+    
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Cats-claw-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Uncaria tomentosa</h3>
+                    <h3 class="secondary-text">(Cat's Claw)</h3>
+                  <p class="card-text">Cat's claw has seen a surge in popularity lately for its candidacy as a potent supportive agent for cancer. It's also a great immune enhancer and stress reduction agent... </p>
+                  <a href="/cats-claw" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Stinging-nettle-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Urticaria dioica</h3>
+                    <h3 class="secondary-text">(Stinging Nettle)</h3>
+                  <p class="card-text">Stinging nettle is nutritious, antinflammatory, and antioxidant. It's used for a wide range of conditions. One of the most interesting uses is known as urtication...</p>
+                  <a href="/stinging-nettle" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+<!--
+       <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Usnea-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Usnea spp.</h3>
+                    <h3 class="secondary-text">(usnea)</h3>
+                  <p class="card-text">With natural lead in to additional content....</p>
+                  <a href="/usnea" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+-->
+    
+    
+    
+    
+</div>
+<div class="row" id="V">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>V</h1>
+
+    
+              
+    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Vanilla-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Vanilla planifolium</h3>
+                    <h3 class="secondary-text">(Vanilla)</h3>
+                  <p class="card-text">Vanilla comes from the seed pod of an orchid. The plant can grow to massive lengths and rarely flowers. It's by far one of the most widely used and well known herbs on earth...</p>
+                  <a href="/vanilla" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+     <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Periwinkle-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Vinica major</h3>
+                    <h3 class="secondary-text">(Periwinkle)</h3>
+                  <p class="card-text">Periwinkle is used to treat bleeding and other related disorders. Its concentrated extract is used in nootropic formulas to improve blood flow to the brain...</p>
+                  <a href="/periwinkle" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+                    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Chaste-tree-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Vitex agnus-castus</h3>
+                    <h3 class="secondary-text">(Chaste Tree)</h3>
+                  <p class="card-text">Chaste berry has been used in the past to reduce libido. it is ironic then that it's also great for treating reproductive insufficiencies and increasing fertility...</p>
+                  <a href="/chaste-tree" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+    
+    
+</div>
+<div class="row" id="W">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>W</h1>
+
+              
+                    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Ashwaghanda-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Withania somnifera</h3>
+                    <h3 class="secondary-text">(Ashwaghanda)</h3>
+                  <p class="card-text">Ashwaghanda is a well rounded, non-stimulating tonic herb. It's useful for strengthening a weak system caused by overstimulation and exhaustion. A perfect herb for...</p>
+                  <a href="/ashwaghanda" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+</div> 
+<div class="row" id="X">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>X</h1>
+
+    
+    
+    
+    
+</div>  
+<div class="row" id="Y">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>Y</h1>
+
+              
+    
+    
+</div>
+<div class="row" id="Z">
+            <h1 class="alphabetical-header"><span style="display:inline-block; width: 15px;"></span>Z</h1>
+
+              
+                    <div class="col-sm-4">
+                <div class="card card-block">
+              <img class="card-img-right" src="/s/Ginger-icon.png" alt="Card image cap">
+                  <h3 class="card-title">Zingiber officinale</h3>
+                    <h3 class="secondary-text">(Ginger)</h3>
+                  <p class="card-text">Ginger is by far one of the most renowned and well known herbs of all time. It's no surprise then that this delicious spicy root has a long list of medicinal benefits...</p>
+                  <a href="/ginger" class="btn btn-danger raised btn-lg btn-block">Learn More</a>
+                </div>
+              </div>
+    
+    
+</div>
+            
+      
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  </body>
+</html>
