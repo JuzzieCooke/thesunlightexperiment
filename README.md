@@ -14,7 +14,6 @@ Another thing I would love to add is to have cookies to determine whether the he
 This could also be achieved through the use of a drop down selector. More research and testing will need to be done on this. 
 
 
-more damage
-changing it again
+trying to cause merge errors now
 
 I think this might damage something
