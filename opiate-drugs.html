@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      
+      
+      
+      <style>
+            body {
+          position: relative;
+        }
+        
+        #firstrow {
+            margin-top: 40px;
+        }
+        
+
+.btn-danger.raised {
+    box-shadow: 0 3px 0 0 #992C1F;
+}
+        
+.btn-danger.raised:active, .btn-primary.raised.active {
+    background: #33a6cc;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+          .drug-card-block {
+             min-height: 300px !important;
+              max-height: 300px; 
+/*            !!!!!!!!!!!!!!!!!!*/
+            position: relative;
+            @media (min-width: @screen-sm) { height: 1000px;
+              -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1.25rem;} 
+              
+          }
+          
+          
+        .card-block {
+            height: ;
+/*            !!!!!!!!!!!!!!!!!!*/
+            position: relative;
+            @media (min-width: @screen-sm) { height: 1000px; }
+        }
+        
+        .card-text {
+            font-size: 100%;
+            font-family: "cormorant garamond";
+            text-align: center;
+}
+        
+        .card-title {
+            font-family: 'cormorant garamond', serif;
+            font-size: 250%;
+            font-weight: 500;
+            text-align: center;
+        }
+          
+          .drug-icon {
+              max-width: 100%;
+          }
+          
+          .drug-card {
+                position: relative;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -webkit-flex-direction: column;
+                  -ms-flex-direction: column;
+                      flex-direction: column;
+              background-color: #fff;
+              border: 1px solid rgba(0, 0, 0, 0.125);
+              border-radius: 0.25rem;
+              height: 900px; 
+              margin-bottom: 30px; 
+          }
+        
+        .btn {
+            position: absolute;
+            top: 610px;
+            left: 10%;
+            width: 75% !important;
+            text-align: center;
+            
+        }
+        
+        .btn-lg {
+            
+            width: 75%;
+        }
+        
+        .nav-item {
+           color: #F7F7F9;
+        }
+        
+          h1 {
+        font-family: "ltc bodoni 175" !important; 
+              font-weight: 100;
+      }
+        
+        .secondary-text {
+            font-weight: 100;
+            text-align: center;
+            font-size: 80%;
+        }
+        
+        .search-alphabetically {
+            padding-left: 50px;
+            clear: both;
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            color: grey;
+            }
+        
+       .div-inline{
+/*           padding-left: 170px;*/
+/*           clear: both ;*/
+/*    display: inline-block !important;*/
+/*
+    overflow: hidden;
+    white-space: nowrap;
+*/
+}
+        
+        .navbar {
+            border-style: solid;
+            border-color: lightgray;
+            border-width: thin;
+        }
+        
+        
+
+        
+       
+    </style>
+      
+      
+      
+  </head>
+    
+  <body>
+    
+      
+    <div class="row">
+        
+<!--TEMPLATE-->
+        
+<!--
+        <div class="col-12 col-sm-6 col-lg-4">   
+            <div class="card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">TEMPLATE</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>INSERT</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>INSERT</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>INSERT</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>INSERT</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>INSERT</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>xxx</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+-->
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+<!--
+                <div class="card-block">
+                    <a href="#" class="card-link" target="_blank">Drugs.com</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+-->
+        
+        
+<!--BUPRENORPHINE-->
+        
+        <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Buprenorphine</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Buprenorphine</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>Buprenex</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Partial Opioid Agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opioid (mu)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>xxx</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="https://thesunlightexperiment.com/s/Alpha-gpc-icon.png" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                    <a href="https://www.drugs.com/dosage/buprenorphine.html" class="card-link" target="_blank">Drugs.com</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+        
+<!--CODEINE-->
+        
+        <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Codeine</h4>
+                    <p class="card-text">Codeine is considered to be medium-low strength when compared to the other opiate drugs. It is a prodrug that is metabolised into morphine in the liver. Has sewcondary antitussive and antidiarrheal effects (oral forms).</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>INSERT</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>INSERT</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptor (Various)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>15 to 60 mg up to every 4 hours as needed</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                    <a href="https://www.drugs.com/codeine.html" class="card-link" target="_blank">Drugs.com</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+  
+        
+<!--DEXTROPROPOXYPHENE-->
+        
+        <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title" style="font-size: 190%;">Dextropropoxyphene</h4>
+                    <p class="card-text">Now obselete due to cardiotoxicity and lack of advantages over other opiates.</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>INSERT</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>INSERT</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptors (</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>No longer in use.</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                    <a href="https://www.drugs.com/international/dextropropoxyphene.html" class="card-link" target="_blank">Drugs.com</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+        
+        
+        
+        
+<!--DIAMORPHINE-->
+        
+         <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Diamorphine</h4>
+                    <p class="card-text">Diamorphine, also known as Heroin is a potent illegal opioid drug made from the naturally ocurring morphine. This drug was originally made by the pharmaceutical giant Bayer. It is now one of the most dangerous street drugs in the world.</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Diamorphine</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>Heroin</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptors (??)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>NOT USED MEDICALLY</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+            </div>
+-->
+                
+                <div class="card-block">
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+        
+   
+         
+<!--FENTANYL         -->
+        
+        <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Fentanyl</h4>
+                    <p class="card-text">Fentanyl has a high potency and short duration of action. It is mainly used for day surgery and for breakthrough pain in cancer patients. High potential for drug abuse.</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Fentanyl</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td> Sublimaze (injection), Abstral (sublingual tablet), Actiq (lozenge), Duragesic (transdermal patch), Fentora (buccal tablet), Lazanda (nasal spray), Subsys (sublingual spray)</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opioid receptors(??)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>Various depending on form</td>
+                    </tr>
+                    </tbody>
+               
+                </table>
+                        <br>
+
+<!--
+                            <h3 style="text-align: center;">Chemical Structure</h3>
+                     <div style="text-align: center">
+                          <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                        </div>
+-->
+                
+                        <div class="card-block">
+                            <a href="https://www.drugs.com/dosage/fentanyl.html" class="card-link" target="_blank">Drugs.com</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                        </div>
+                    </div>
+              </div>
+        
+<!--DIAMORPHINE-->
+        
+         <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Diamorphine</h4>
+                    <p class="card-text">Diamorphine, also known as Heroin is a potent illegal opioid drug made from the naturally ocurring morphine. This drug was originally made by the pharmaceutical giant Bayer. It is now one of the most dangerous street drugs in the world.</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Diamorphine</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>Heroin</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptors (??)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>NOT USED MEDICALLY</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+        
+        
+<!--METHADONE-->
+        
+         <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Methadone</h4>
+                    <p class="card-text">Methadone has similar activity to morphine but has better bioavailability. The duration of action for this medication can be extended to 72 hours with repeated oral dosing. It is often used in detoxification programs for heroin addicts. </p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Methadone</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>Dolophine, Methadose, Methadose Sugar-Free, Diskets</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptors (???)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>INSERT</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>xxx</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                    <a href="https://www.drugs.com/methadone.html" class="card-link" target="_blank">Drugs.com</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+        
+        
+        
+<!--MORPHINE-->
+        
+         <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Morphine</h4>
+                    <p class="card-text">Morphine comes from the poppy seed (Papaver sommnifera). It is the basis on which synthetic derrivatives were made from. Morphine comes in various forms. it is rapidly absorbed, and easily cleared through the urine (polar compound).</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Morphine</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>AVINza, Kadian, MS Contin</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptors (???)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Papaver sommnifera</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>15 to 30 mg orally every 4 hours as needed</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                    <a href="https://www.drugs.com/morphine.html" class="card-link" target="_blank">Drugs.com</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+        
+<!--NALOXONE-->
+        
+       
+         <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Naloxone</h4>
+                    <p class="card-text">Naloxone blocks the effects of opioid medication. it is used to treat opiate overdose in emergency situations and to diagnose possible opioid overdose. It can bind to all 3 opiate receptor sites but has a stronger affinity for mu receptors. </p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Naloxone</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>Evzio</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate antagonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptors (mu, kappa, delta)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic?</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>0.4 mg to 2 mg IV</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                    <a href="https://www.drugs.com/mtm/naloxone.html" class="card-link" target="_blank">Drugs.com</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+        </div>
+        
+<!--OXYCODONE-->
+        
+        
+         <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Oxycodone</h4>
+                    <p class="card-text">Oxycodone is a potent synthetic opioid (10 times as potent as codeine). it comes in a variety of dosage forms and strengths and is used to treat moderate to severe pain.</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Oxycodone</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>Oxycontin</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptor (???)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>5 to 15 mg orally every 4 to 6 hours</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                    <a href="https://www.drugs.com/mtm/oxycodone.html" class="card-link" target="_blank">Drugs.com</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+        
+        
+<!--PETHADINE-->
+        
+        <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Pethadine</h4>
+                    <p class="card-text">Pethadine has a low bioavailability and is mainly used for short term use during postoperative pain or other acute forms of pain. It produces a neurotoxic metabolite that can accumulate with long term use. </p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Pethadine</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>Demerol</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptors (???)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>Varied according to form</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                    
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+        
+        
+<!--TRAMADOL-->
+        
+         <div class="col-12 col-md-6 col-lg-4">   
+            <div class="drug-card" style="width: 100%;">
+                <div class="card-header">
+                </div>
+                
+                <div class="drug-card-block">
+                    <h4 class="card-title">Tramadol</h4>
+                    <p class="card-text">Tramadol is an opiate-like analgesic. It is an opiate agonist, but has no structural similarity to the other opioids. It is also a serotonin reuptake inhibitor (SSRI), norepinephrine reuptake inhibitor, and NMDA receptor antagonist.</p>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                     </thead>
+                  <tbody>
+                    <tr>
+                        <th>Generic Name:</th>
+                        <td>Tramadol</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>Brand Name:</th>
+                        <td>ConZip, Ultram</td>
+                    </tr>
+                    <tr>
+                        <th>Main Action:</th>
+                        <td>Opiate agonist and SSRI</td>
+                    </tr>
+                    <tr>
+                        <th>Receptor:</th>
+                        <td>Opiate receptors (mu)</td>
+                    </tr>
+                     <tr>
+                        <th>Source:</th>
+                        <td>Synthetic ?</td>
+                    </tr>
+                    <tr>
+                        <th>Common Dosage:</th>
+                        <td>Unknown</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                
+<!--
+                    <h3 style="text-align: center;">Chemical Structure</h3>
+             <div style="text-align: center">
+                  <img class="card-img-top drug-icon" src="#" alt="Card image cap">
+                </div>
+-->
+                
+                <div class="card-block">
+                    <a href="https://www.drugs.com/tramadol.html" class="card-link" target="_blank">Drugs.com</a>
+                </div>
+                <div class="card-footer text-muted">
+                </div>
+            </div>
+      </div>
+        
+<!--END DIV-->
+         
+      </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+    
+    
+    
+    
+    
+    
+</html>

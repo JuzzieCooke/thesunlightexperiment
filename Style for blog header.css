@@ -1,0 +1,62 @@
+<style>
+ 
+  
+.post-title  {
+  opacity: 0;
+}
+  
+  .entry-header .entry-dateline {
+  opacity: 0;
+}
+  
+   .date {opacity: 0 !important;} 
+  
+  .transparent-header #header {
+
+   background-color: #212121;
+   opacity: 1.0;
+    
+  
+  }
+  .banner-thumbnail-wrapper {
+  margin-top: 140px; 
+  }
+ 
+ #site { padding-top: 500px; }
+  
+  .header-inner {
+    
+  }
+</style>
+
+
+
+
+
+
+
+
+// Second style 
+
+
+<style>
+  .post-title {
+  background-color: black !important; 
+    opacity: 0.6;
+    border-radius: 2px; 
+  }
+</style>
+
+
+
+
+
+
+
+
+// Thirs style (no banner image)
+
+
+  .banner-thumbnail-wrapper {
+  display: none; 
+  }
